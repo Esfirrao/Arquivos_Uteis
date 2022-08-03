@@ -17,8 +17,8 @@ $mail->Username = "exemplo@dominio.com";
 $mail->Password = "123";
 $mail->Port = 587; //Alterar conforme a criptografia do host
 
-$mail->setFrom("2211600147@fema.edu.br");
-$mail->addAddress("$_POST[Email]");
+$mail->setFrom("exemplo@dominio.com");
+$mail->addAddress("endereco@dominio.com");
 
 $mail->isHTML(true);
 $mail->Subject = "Assunto";
